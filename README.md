@@ -37,6 +37,14 @@ myvenv/Scripts/activate.ps1
 pip install -r requirements.txt
 ```
 
+### Install the GloVe embeddings
+This command will download the glove embeddings file from the website using `wget`, and unzip it to the `utils` folder.
+
+```
+wget http://nlp.stanford.edu/data/glove.6B.zip
+unzip glove.6B.zip -d utils
+```
+
 ### Run the app
 ```
 streamlit run app.py
