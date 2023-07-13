@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f060228799fb2b423aec3cd8a8985818c705c49ba0f7f330d3592ba898f53ece
-size 290
+numpy == 1.23.5
+pandas ==    2.0.2
+tensorflow == 2.12.0
+# tensorflow_text
+streamlit ==   1.23.1
+torch ==  2.0.1
+nltk ==  3.8.1
+spaCy ==  3.5.3
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0-py3-none-any.whl
+
