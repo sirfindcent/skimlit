@@ -10,7 +10,7 @@ import re
 import torch
 import torch.nn.functional as F
 
-from Dataset import SkimlitDataset
+from SkimlitData import SkimlitDataset
 
 # nltk.download("stopwords")
 # STOPWORDS = stopwords.words("english")
