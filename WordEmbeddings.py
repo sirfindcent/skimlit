@@ -1,3 +1,8 @@
+# Citing code from VishalRK1 (2022):
+# Embeddings.py.
+# (Version 1.0) [Source code].
+# https://github.com/vishalrk1/SkimLit/blob/main/Embeddings.py
+
 import torch
 import numpy as np
 

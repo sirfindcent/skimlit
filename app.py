@@ -2,9 +2,9 @@ import streamlit as st
 import torch
 import spacy
 
-from Dataset import SkimlitDataset
-from Embeddings import get_embeddings
-from Model import SkimlitModel
+from SkimlitData import SkimlitDataset
+from WordEmbeddings import get_embeddings
+from SkimlitClassifier import SkimlitModel
 from Tokenizer import Tokenizer
 from LabelEncoder import LabelEncoder
 from MakePredictions import make_skimlit_predictions, example_input

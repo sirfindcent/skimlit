@@ -12,10 +12,6 @@ import torch.nn.functional as F
 
 from SkimlitData import SkimlitDataset
 
-# nltk.download("stopwords")
-# STOPWORDS = stopwords.words("english")
-# porter = PorterStemmer()
-
 def download_stopwords():
     nltk.download("stopwords")
     STOPWORDS = stopwords.words("english")

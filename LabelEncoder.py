@@ -1,3 +1,9 @@
+# Citing code from VishalRK1 (2022):
+# LabelEncoder.py.
+# (Version 1.0) [Source code].
+# https://github.com/vishalrk1/SkimLit/blob/main/LabelEncoder.py
+
+
 import numpy as np
 import json
 

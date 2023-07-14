@@ -1,3 +1,8 @@
+# Citing code from VishalRK1 (2022):
+# Dataset.py.
+# (Version 1.0) [Source code].
+# https://github.com/vishalrk1/SkimLit/blob/main/Dataset.py
+
 import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader, Dataset
