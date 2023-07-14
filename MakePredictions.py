@@ -1,3 +1,8 @@
+# Citing code from VishalRK1 (2022):
+# MakePredictions.py.
+# (Version 1.0) [Source code].
+# https://github.com/vishalrk1/SkimLit/blob/main/MakePredictions.py
+
 import numpy as np
 import spacy
 import pandas as pd
