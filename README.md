@@ -43,7 +43,7 @@ cd skimlit
 ```
 
 ### Create the environment
-I use `venv` for my environment and PowerShell for the command. You could do similar with Conda and pip but I prefer `venv``.
+I use `venv` for my environment and PowerShell for the command. You could do similar with Conda and pip, but I prefer `venv`.
 
 ```
 python -m venv myvenv
