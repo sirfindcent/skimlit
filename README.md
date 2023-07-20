@@ -43,7 +43,7 @@ cd skimlit
 ```
 
 ### Create the environment
-I use `venv` for my environment and PowerShell for the command. You could do similar with Conda and pip but I prefer venv.
+I use `venv` for my environment and PowerShell for the command. You could do similar with Conda and pip but I prefer `venv``.
 
 ```
 python -m venv myvenv
@@ -70,9 +70,9 @@ streamlit run app.py
     <a href="https://www.linkedin.com/in/sirfindcent" target="_blank">
         <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
     </a>
-    <a href="https://twitter.com/sirfindcent" target="_blank">
+    <!-- <a href="https://twitter.com/sirfindcent" target="_blank">
         <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
-    </a>
+    </a> -->
     <a href="https://github.com/sirfindcent" target="_blank">
         <img alt="Github" src="https://img.shields.io/badge/Github-%11K37626.svg?style=for-the-badge&logo=github&logoColor=white" />&nbsp;
     </a>
