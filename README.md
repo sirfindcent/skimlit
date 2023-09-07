@@ -38,7 +38,7 @@ If this doesn't work please [leave an issue](https://github.com/sirfindcent/skim
 
 ### Clone the repo
 ```
-git clone https://github.com/sirfindcent/skimlit
+git clone https://github.com/sirfindcent/skimlit.git
 cd skimlit
 ```
 
