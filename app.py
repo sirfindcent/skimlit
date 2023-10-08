@@ -62,10 +62,16 @@ def main():
         initial_sidebar_state="expanded"
     )
 
-    st.markdown("<h1 style='text-align: center; color: LightGray;'>Skimlit📄⚡</h1>", unsafe_allow_html=True)
-    st.markdown("<p style='text-align: center;'> Find the information you need in abstracts faster than ever. This NLP-powered app automatically classifies each sentence into a relevant heading, so you can quickly skim through abstracts and find the information you need.", unsafe_allow_html=True)
-    st.markdown("<hr style='margin-top: 0; margin-bottom: 0;'>", unsafe_allow_html=True)
+    # Define the title and its description
+    html_code = """
+    <h1 style='text-align: center; color: LightGray;'>Skimlit📄⚡</h1>
+    <p style='margin-bottom: 0px; margin-top: 0px; text-align: center;'> Find the information you need in abstracts faster than ever.</p>
+    <p style='margin-bottom: 0px; margin-top: 0px; text-align: center;'> This NLP-powered app automatically classifies each sentence into a relevant heading, so you can quickly skim through abstracts and find the information you need.
+    <hr style='margin-top: 0; margin-bottom: 0;'>
+    """
 
+    # Display the HTML code on the Streamlit page
+    st.markdown(html_code, unsafe_allow_html=True)
     
     # Creating model, tokenizer, and label encoder
     skimlit_model, tokenizer, label_encoder = create_utils(MODEL_PATH, TOKENIZER_PATH, LABEL_ENCODER_PATH, EMBEDDING_FILE_PATH)
