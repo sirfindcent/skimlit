@@ -15,7 +15,7 @@
 </div>
 
 ## 🎯 About ##
-This NLP-powered app automatically classifies each sentence into a relevant heading (e.g. objective, methods, results, etc..), so you can quickly skim through abstracts and find the information you need. This project is inspired by the 2017 paper PubMed [200k RCT: a Dataset for Sequential Sentence Classification in Medical Abstracts](https://arxiv.org/abs/1710.06071).
+This NLP-powered app automatically classifies each sentence into a relevant heading (e.g. objective, methods, results, etc..), so you can quickly skim through abstracts and find the information you need. This project is inspired by the 2017 paper [PubMed 200k RCT: a Dataset for Sequential Sentence Classification in Medical Abstracts](https://arxiv.org/abs/1710.06071).
 
 
 <img src="images/app.jpeg" width=100% height=100%>
